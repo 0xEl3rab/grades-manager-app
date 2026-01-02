@@ -16,11 +16,11 @@ function App() {
 
 
 
-  const deleteModule = (id: string) => {
+  const deleteModule = (id: string | number) => {
     const updateModules = modules.filter(mou => mou.id !== id);
     setModules(updateModules)
   }
-  const updateModulesValue = (e: React.ChangeEvent<HTMLInputElement>, id: string) => {
+  const updateModulesValue = (e: React.ChangeEvent<HTMLInputElement>, id: string | number) => {
     const { name, value } = e.target;
     setModules(prev => {
         const nextState = prev.map(mou => mou.id === id ? {...mou, [name]: value} : mou);
