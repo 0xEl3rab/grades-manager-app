@@ -8,6 +8,6 @@ export interface IProps {
   Average: number;
   num : number;
   id: string | number; 
-  onDelete: (id: string | number) => void;
-  onUpdate: (e: React.ChangeEvent<HTMLInputElement>, id: string | number) => void;
+  onDelete?: (id: string | number) => void;
+  onUpdate?: (e: React.ChangeEvent<HTMLInputElement>, id: string | number) => void;
 }
