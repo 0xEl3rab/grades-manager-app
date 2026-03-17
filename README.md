@@ -15,6 +15,6 @@ A simple and fast **Single Page Application (SPA)** to help students calculate t
 - **Typescript** ....
 
 ## 🚀 How to Run
-1. Clone the repo: `git clone https://github.com/YOUR_USERNAME/grades-manager-app.git`
+1. Clone the repo: `git clone https://github.com/0xEl3rab/grades-manager-app.git`
 2. Install: `npm install`
 3. Start: `npm run dev`
